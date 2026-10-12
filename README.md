@@ -29,9 +29,19 @@ El script corre el flujo completo (o carga del disco todo lo ya calculado en `db
 
 ### Ejecución
 
-Ejecutar z101_target_sql.ipynb para generar competencia_01.csv en competencia_uno.
+Ejecutar
 
-Ejecutar python competencia_uno/generate_features_extendido.py. Genera un archivo .parquet.
+Ejecutar
+```bash
+z101_target_sql.ipynb
+```
+para generar competencia_01.csv en competencia_uno.
+
+Ejecutar
+```bash
+../.venv/bin/python competencia_uno/generate_features_extendido.py
+```
+Genera un archivo .parquet.
 
 
 Por último, desde la raíz del repositorio:

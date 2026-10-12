@@ -1,9 +1,12 @@
 /competencia_uno/submits/*
 /competencia_uno/EXPERIMENTOS.md
 /competencia_uno/FEATURES.md
+/competencia_uno/registro.md
 /competencia_uno/cache
 .venv/
 __pycache__/
 *.pyc
 *.csv
 *.parquet
+
+comparar_parquets.py
